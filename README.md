@@ -35,33 +35,6 @@ api/posts/comments/create/
 edit or delete comment before posting
 api/posts/comments/id/
 
-You can run on your own server as follows:
-
-1. create a folder in which to clone the project
-2. In the command line of the interpreter in the appropriate folder, insert the following command
-
-git clone https://github.com/BoichukN/app_news_api.git
-
-The project was cloned to your folder.
-
-3. run the migration commands on the command line to create a database (make sure you have the PostgreSQL database installed).
-The first create a database with a name 'list_of_news' and username 'admin' and password 'cr72013'.
-Then in the command line python of your directory enter the following commands.
-
-python manage.py makemigrations
-python manage.py migrate
-
-4. create a superuser
-
-python manage.py createsuperuser
-
-5. start the server
-
-python manage.py runserver
-
-6. At the address / admin / go to the profile.
-
-7. Using the urls above, you can create other posts and comments.
 
 
 Link to my site on Heroku below:
